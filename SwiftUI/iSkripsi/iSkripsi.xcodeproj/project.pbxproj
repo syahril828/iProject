@@ -44,6 +44,7 @@
 		064B120727B74F8900207560 /* iSkripsiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSkripsiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064B120B27B74F8900207560 /* iSkripsiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSkripsiUITests.swift; sourceTree = "<group>"; };
 		064B120D27B74F8900207560 /* iSkripsiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSkripsiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		064B121A27B7510C00207560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		064B11EF27B74F8200207560 /* iSkripsi */ = {
 			isa = PBXGroup;
 			children = (
+				064B121A27B7510C00207560 /* Info.plist */,
 				064B11F027B74F8200207560 /* iSkripsiApp.swift */,
 				064B11F227B74F8200207560 /* ContentView.swift */,
 				064B11F427B74F8700207560 /* Assets.xcassets */,
@@ -422,9 +424,10 @@
 				DEVELOPMENT_TEAM = HU4952GTJM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSkripsi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -452,9 +455,10 @@
 				DEVELOPMENT_TEAM = HU4952GTJM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSkripsi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
