@@ -1,2 +1,2 @@
 # iProject
-iProject adalah tempat penyimpanan latihan-latihan
+iProject adalah tempat penyimpanan proyek
